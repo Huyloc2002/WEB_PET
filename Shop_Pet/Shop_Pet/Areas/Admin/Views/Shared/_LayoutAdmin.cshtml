@@ -1,0 +1,137 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta charset="UTF-8">
+    <link href="~/admin/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/admin/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="~/admin/css/fullcalendar.min.css" rel="stylesheet" />
+    <link href="~/admin/css/tooplate.css" rel="stylesheet" />
+    <link href="
+https://cdn.jsdelivr.net/npm/fontawesome-4.7@4.7.0/css/font-awesome.min.css
+" rel="stylesheet">
+</head>
+<body class="reportsPage">
+
+    <div class="" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+                        <a class="navbar-brand" href="#">
+                            <i class="fas fa-3x fa-tachometer-alt tm-site-icon"></i>
+                            <h1 class="tm-site-title mb-0">Dashboard</h1>
+                        </a>
+                        <button class="navbar-toggler ml-auto mr-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" asp-action="Index" asp-controller="Home">
+                                        Dashboard
+                                        <span class="sr-only">(current)</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="Index" asp-controller="CategoryPet">CategoryPet</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="Index" asp-controller="Pet">Pet</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="Index" asp-controller="Order">Order</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="accounts.html">Accounts</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                       aria-expanded="false">
+                                        Settings
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Profile</a>
+                                        <a class="dropdown-item" href="#">Billing</a>
+                                        <a class="dropdown-item" href="#">Customize</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex" href="/Admin/Home/Logout">
+                                      
+                                        <span>Logout</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            </div>
+
+            <div>
+                @RenderBody()
+            </div>
+            <!-- row -->
+          
+
+                <footer class="row tm-mt-small">
+                    <div class="col-12 font-weight-light">
+                        <p class="d-inline-block tm-bg-black text-white py-2 px-4">
+                            Copyright &copy; 2018. Created by
+                            <a href="http://www.tooplate.com" class="text-white tm-footer-link">Tooplate</a> |  Distributed by <a href="https://themewagon.com" class="text-white tm-footer-link">ThemeWagon</a>
+                        </p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+
+
+        <script src="~/admin/js/jquery-3.3.1.min.js"></script>
+        <script src="~/admin/js/moment.min.js"></script>
+        <script src="~/admin/js/utils.js"></script>
+        <script src="~/admin/js/chart.min.js"></script>
+        <script src="~/admin/js/fullcalendar.min.js"></script>
+        <script src="~/admin/js/bootstrap.min.js"></script>
+        <script src="~/admin/js/tooplate-scripts.js"></script>
+        <script>
+            let ctxLine,
+                ctxBar,
+                ctxPie,
+                optionsLine,
+                optionsBar,
+                optionsPie,
+                configLine,
+                configBar,
+                configPie,
+                lineChart;
+            barChart, pieChart;
+            // DOM is ready
+            $(function () {
+                updateChartOptions();
+                drawLineChart(); // Line Chart
+                drawBarChart(); // Bar Chart
+                drawPieChart(); // Pie Chart
+                drawCalendar(); // Calendar
+
+                $(window).resize(function () {
+                    updateChartOptions();
+                    updateLineChart();
+                    updateBarChart();
+                    reloadPage();
+                });
+            })
+        </script>
+
+</body>
+</html>

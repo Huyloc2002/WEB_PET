@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewData["Title"] = "ThuCung";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-center">Gian Hàng Thú Cưng</h1>
+<hr />
+
+<div class="btn-group mb-3">
+    <button class="btn btn-success">
+        <a class="text-white" asp-action="ThuCung" asp-route-species="Chó">Chó</a>
+    </button>
+    <button class="btn btn-warning">
+        <a class="text-white" asp-action="ThuCung" asp-route-species="Mèo">Mèo</a>
+    </button>
+    <button class="btn btn-secondary">
+        <a class="text-white" asp-action="ThuCung" asp-route-species="Thỏ">Thỏ</a>
+    </button> 
+    <button class="btn btn-secondary">
+        <a class="text-white" asp-action="ThuCung" asp-route-species="Sóc">Sóc</a>
+    </button>
+    <button class="btn btn-dark">
+        <a class="text-white" asp-action="ThuCung">Tất Cả</a>
+    </button>
+</div>
+<hr />
+    <div class="container">
+            <div class="row">
+
+        @foreach (var p in ViewBag.Pets)
+        {
+                <div class="col-md-3">
+
+            <div class="pb-5">
+                <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                    <img class="img-fluid mb-4" src="@Url.Content("~/Admin/img/" + p.Images)" alt="@p.name">
+                        <h6 class="text-uppercase"> @(p.CategoryPet != null ? p.CategoryPet.species : "Unknown")</h6>
+                    <h6 class="text-uppercase">Giống: @p.breed</h6>
+                    <h5 class="text-primary mb-0">Giá: @p.price đ</h5>
+                    <div class="btn-action d-flex justify-content-center">
+                        <a class="btn btn-primary py-2 px-3" asp-action="AddToCart" asp-controller="Cart" asp-route-id="@p.pet_id"><i class="bi bi-cart"></i></a>
+                        <a class="btn btn-primary py-2 px-3" href="#" onclick="showProductDetail('@p.name', '@p.breed', '@p.price', '@Url.Content("~/Admin/img/" + p.Images)')">
+                            <i class="bi bi-eye"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        }
+            </div>
+    </div>
+
+
+<div class="modal fade" id="productDetailModal" tabindex="-1" aria-labelledby="productDetailLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="productDetailLabel">Thông tin chi tiết</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div id="modalContent"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+<script>
+    function showProductDetail(name, breed, price, image) {
+        const modalContent = `
+                    <img src="${image}" class="img-fluid mb-4" alt="${name}">
+                    <h6 class="text-uppercase">Tên: ${name}</h6>
+                   
+                    <h6 class="text-uppercase">Giống: ${breed}</h6>
+                    <h5 class="text-primary mb-0">Giá: ${price} đ</h5>
+                `;
+        document.getElementById('modalContent').innerHTML = modalContent;
+        const modal = new bootstrap.Modal(document.getElementById('productDetailModal'));
+        modal.show();
+    }
+</script>

@@ -1,0 +1,131 @@
+﻿@*@model List<Shop_Pet.Models.DataModels.Pet>
+
+@{
+    ViewData["Title"] = "Your Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Your Cart</h1>
+
+@if (Model != null && Model.Count > 0)
+{
+    <div class="cart-items">
+        @foreach (var pet in Model)
+        {
+           
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="cart-item">
+                        <img src="@Url.Content("~/Admin/img/" + pet.Images)" alt="@pet.name" />
+                       
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="cart-item">
+                       
+                        <h5>@pet.pet_id</h5>
+                        <p>Species: @pet.species</p>
+                        <p>Breed: @pet.breed</p>
+                        <p>Price: @pet.price đ</p>
+                        <p>Số lượng:</p>
+                        <input type="number" min="1" value="1" class="quantity-input" data-pet-id="@pet.pet_id" />
+                    </div>
+                    <hr>
+                    <button class="btn btn-success ">Thêm vòa giỏ hàng</button>  
+                    <button class="btn btn-danger ">Mua Ngay</button>
+                    </div>
+
+            </div>
+         
+        }
+    </div>
+}
+else
+{
+   <p>Your cart is empty.</p>
+}
+
+
+<style>
+    .cart-item h5{
+        font-size:40px;
+    }
+
+    .cart-item p{
+        font-size: 40px;
+    }
+</style>*@
+
+@model List<Shop_Pet.Models.DataModels.Cart>
+
+@{
+    ViewData["Title"] = "Your Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    // Kiểm tra trạng thái đăng nhập thông qua Session
+    var isLoggedIn = (bool)ViewData["IsLoggedIn"];
+}
+
+<h1>Trang Giỏ Hàng</h1>
+
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Tên Pet</th>
+                <th>Hình Ảnh</th>
+                <th>Giá Pet</th>
+                <th>Số Lượng</th>
+                <th>Thành Tiền</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Tenpet</td>
+                    <td>
+                        <img src="@Url.Content("~/Admin/img/" + item.Images)" width="100px" alt="@item.Tenpet" />
+                    </td>
+                    <td>@item.Price đ</td>
+                    <td> <input type="number" min="1" value="@item.Quantity" class="quantity-input" data-pet-id="@item.Id" /></td>
+                    <td> @item.Thanhtien đ</td>
+                    <td> <a href="@Url.Action("Remove", new { id = item.Id })" class="btn btn-danger">Xóa</a></td>
+                </tr>
+                <hr />
+            
+            }
+        </tbody>
+    </table>
+    @if (!isLoggedIn)  // Nếu chưa đăng nhập
+    {
+        <form method="post" asp-action="PlaceOrder" asp-controller="Home">
+            <button class="btn btn-success">Thêm vào giỏ hàng</button>
+            <a href="@Url.Action("Register", "Home")" class="btn btn-primary ">Đăng ký Để Mua Hàng</a>
+        </form>
+    }
+    else  // Nếu đã đăng nhập
+    {
+        <form method="post" asp-action="PlaceOrder" asp-controller="Home">
+            <button class="btn btn-success">Thêm vào giỏ hàng</button>
+            <a href="@Url.Action( "Index","Order")" class="btn btn-primary ">Mua Hàng</a>
+        </form>
+    }
+
+}
+else
+{
+    <p>Your cart is empty.</p>
+}
+ 
+<style>
+    .cart-item h5 {
+        font-size: 40px;
+    }
+
+    .cart-item p {
+        font-size: 20px; /* Adjusted for better readability */
+    }
+</style>

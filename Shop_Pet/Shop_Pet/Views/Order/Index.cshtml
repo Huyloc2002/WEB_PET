@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "Order";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Order</h1>
+
+<div class="container">
+   @*  @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    } *@
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+
+    <div class="row">
+      
+            @if (Model != null && Model.Count > 0)
+            {
+            <div class="col-md-7">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Tên Pet</th>
+                            <th>Hình Ảnh</th>
+                            <th>Giá Pet</th>
+                            <th>Số Lượng</th>
+                            <th>Thành Tiền</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Tenpet</td>
+                                <td>
+                                    <img src="@Url.Content("~/Admin/img/" + item.Images)" width="100px" alt="@item.Tenpet" />
+                                </td>
+                                <td>@item.Price đ</td>
+                                <td>
+                                    <input type="number" min="1" value="@item.Quantity" class="quantity-input" data-pet-id="@item.Id" />
+                                </td>
+                                <td>@item.Thanhtien đ</td>
+                                <td>
+                                    <a href="@Url.Action("Remove", new { id = item.Id })" class="btn btn-danger">Xóa</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-5">
+                <form method="post" asp-action="Checkout" asp-controller="Order">
+                 
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <input type="text" name="fullname" class="form-control bg-light border-0 px-4"
+                                   placeholder="Tên đăng nhập" required style="height: 55px;">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" name="email" class="form-control bg-light border-0 px-4"
+                                   placeholder="Tên Email" required style="height: 55px;">
+                        </div>
+                         <div class="col-12">
+                            <input type="text" name="phone" class="form-control bg-light border-0 px-4"
+                                   placeholder="số điện thoại" required style="height: 55px;">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" name="address" class="form-control bg-light border-0 px-4"
+                                   placeholder="Tên Địa chỉ" required style="height: 55px;">
+                        </div>
+                       
+                    <button type="submit" class="btn btn-success mt-3">Mua Hàng</button>
+                </form>
+            </div>
+            }
+          
+      
+    </div>
+</div>

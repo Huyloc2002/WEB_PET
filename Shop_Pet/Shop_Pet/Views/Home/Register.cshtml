@@ -1,0 +1,35 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@Html.Raw(ViewBag.error)
+<div class="row g-5 justify-content-center align-items-center ">
+    <div class="col-lg-7">
+        <form asp-action="Register" asp-controller="Home" method="post">
+            
+            <div class="row g-3">
+                <div class="col-12">
+                    <input type="text" name="username" class="form-control bg-light border-0 px-4" placeholder="Tên đăng nhập" style="height: 55px;">
+                </div>
+                <div class="col-12">
+                    <input type="text" name="fullname" class="form-control bg-light border-0 px-4" placeholder=" Họ Tên" style="height: 55px;">
+                </div>
+                <div class="col-12">
+                    <input type="text" name="email" class="form-control bg-light border-0 px-4" placeholder="Tên Email" style="height: 55px;">
+                </div>
+                <div class="col-12">
+                    <input type="text" name="phone" class="form-control bg-light border-0 px-4" placeholder="Số điện Thoại" style="height: 55px;">
+                </div>
+                <div class="col-12">
+                    <input type="password" name="password" class="form-control bg-light border-0 px-4" placeholder=" Mật khẩu" style="height: 55px;">
+                </div>
+
+                <div class="col-12">
+                    <button class="btn btn-primary w-100 py-3" type="submit">Đăng Ký</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

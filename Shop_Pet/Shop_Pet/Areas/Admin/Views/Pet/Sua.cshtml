@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewData["Title"] = "Sua";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@model Shop_Pet.Models.DataModels.Pet
+<h1>Sua</h1>
+
+
+<div class="row tm-mt-big">
+    <div class="col-xl-8 col-lg-10 col-md-12 col-sm-12">
+        <div class="bg-white tm-block">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="tm-block-title d-inline-block">Add Product</h2>
+                </div>
+            </div>
+            <div class="row mt-4 tm-edit-product-row">
+                <div class="col-xl-7 col-lg-7 col-md-12">
+                    <form action="Sua" method="post" class="tm-edit-product-form">
+                         <div class="input-group mb-3">
+                            <label  class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">
+                                Tên Thú Cưng
+                            </label>
+                            <input asp-for="pet_id" readonly type="text" class="form-control validate col-xl-9 col-lg-8 col-md-8 col-sm-7">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label for="name" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">
+                                Tên Thú Cưng
+                            </label>
+                            <input asp-for="name" name="name" type="text" class="form-control validate col-xl-9 col-lg-8 col-md-8 col-sm-7">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <label for="CategoryPetId" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">
+                                Tên Thú Cưng
+                            </label>
+                            <select asp-for="CategoryPetId" asp-items="@(new SelectList(ViewBag.Categories,"CategoryPetId","species"))">
+                                    <option value="">--Chọn Loài--</option>
+                                </select>
+                        </div>
+                      
+                        <div class="input-group mb-3">
+                            <label for="stock" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">
+                                Giống Thú Cưng
+                            </label>
+                            <input asp-for="breed" type="text" class="form-control validate col-xl-9 col-lg-8 col-md-7 col-sm-7">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label for="stock" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">
+                                Tuổi
+                            </label>
+                            <input asp-for="age" type="text" class="form-control validate col-xl-9 col-lg-8 col-md-7 col-sm-7">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label for="stock" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">
+                                Giá
+                            </label>
+                            <input asp-for="price" class="form-control validate col-xl-9 col-lg-8 col-md-7 col-sm-7">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label for="stock" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">
+                                Số Lượng
+                            </label>
+                            <input asp-for="quantity" type="text" class="form-control validate col-xl-9 col-lg-8 col-md-7 col-sm-7">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label for="stock" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">
+                                Hình Ảnh
+                            </label>
+                            <input asp-for="Images" id="imageInput" type="file" class="form-control validate col-xl-9 col-lg-8 col-md-7 col-sm-7" />
+
+
+                        </div>
+                        <div class="input-group mb-3" style="margin-left:200px">
+                            <img src="~/Admin/img/@Model.Images" width="60px" id="previewImage" />
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <label for="description" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 mb-2">Description</label>
+                            <textarea asp-for="description" class="form-control validate col-xl-9 col-lg-8 col-md-8 col-sm-7" rows="3" required></textarea>
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="ml-auto col-xl-8 col-lg-8 col-md-8 col-sm-7 pl-0">
+                                <button type="submit" class="btn btn-primary">
+                                    Add
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('imageInput').addEventListener('change', function (event) {
+        const file = event.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                const img = document.getElementById('previewImage');
+                img.src = e.target.result; // Set the image source to the file data
+                img.style.display = 'block'; // Show the image
+            }
+            reader.readAsDataURL(file);
+        }
+    });
+</script>

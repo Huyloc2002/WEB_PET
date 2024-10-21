@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<link href="
+https://cdn.jsdelivr.net/npm/fontawesome-4.7@4.7.0/css/font-awesome.min.css
+" rel="stylesheet">
+<hr />
+<a class="btn btn-success pull-left" asp-action="Themmoi" asp-controller="Pet"><i class="fa fa-plus"></i>Thêm mới</a>
+
+<form asp-action="Index" asp-controller="Pet" method="get" class="form-inline mb-3 pull-right">
+    <input type="text" name="name" class="form-control mt-3" placeholder="Tìm kiếm theo tên, loài hoặc giống" required />
+    <button type="submit" class="btn btn-warning ml-2">Tìm Kiếm</button>
+</form>
+
+<table class="table table-bordered bg-white mt-4">
+    <thead>
+        <tr>
+            <th>Mã Order</th>
+            <th>Tên Khách Hàng</th>
+            <th>Email</th>
+            <th>Số điện Thoại</th>
+            <th>Địa Chỉ</th>
+            <th>Đơn Hàng</th>
+            <th>Hình Ảnh</th>
+            <th>Chức Năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var o in ViewBag.Orders)
+        {
+            <tr>
+                <td>@o.OrderId</td>
+                <td>@o.Fullname</td>
+                <td>@o.Email</td>
+                <td>@o.Phone</td>
+                <td>@o.Address</td>
+                <td>@o.NamePet</td>
+                <td>
+                    <img src="~/Admin/img/@o.ImagesPet" width="60px" />
+                </td>
+                <td>
+                    <a class="btn btn-danger" asp-action="Xoa" asp-controller="" asp-route-Id=""><i class="fa fa-trash"></i>Xóa</a>
+                    <a class="btn btn-danger" asp-action="Sua" asp-controller="" asp-route-Id=""><i class="fa fa-pencil"></i>Sửa</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+

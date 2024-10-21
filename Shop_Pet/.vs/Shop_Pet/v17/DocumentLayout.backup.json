@@ -1,0 +1,780 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Windows\\Videos\\Shop_Pet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\views\\shared\\componnents\\cart\\cartpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\views\\shared\\componnents\\cart\\cartpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\viewcomponent\\cartview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\viewcomponent\\cartview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\views\\order\\orderssucess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\views\\order\\orderssucess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\models\\datamodels\\shoppetdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\models\\datamodels\\shoppetdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\models\\cipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\models\\cipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\models\\datamodels\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\models\\datamodels\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\models\\datamodels\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\models\\datamodels\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Migrations\\20241020161331_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shop_Pet\\Migrations\\20241020161331_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\models\\datamodels\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\models\\datamodels\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Migrations\\20241020155906_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shop_Pet\\Migrations\\20241020155906_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\areas\\admin\\views\\pet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\areas\\admin\\views\\pet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\areas\\admin\\views\\categorypet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\areas\\admin\\views\\categorypet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\areas\\admin\\views\\categorypet\\sua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\areas\\admin\\views\\categorypet\\sua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\areas\\admin\\views\\pet\\themmoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\areas\\admin\\views\\pet\\themmoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\models\\datamodels\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\models\\datamodels\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\models\\datamodels\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\models\\datamodels\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\models\\datamodels\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\models\\datamodels\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Migrations\\20241019162506_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shop_Pet\\Migrations\\20241019162506_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Migrations\\20241019162043_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shop_Pet\\Migrations\\20241019162043_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Migrations\\20241019161756_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shop_Pet\\Migrations\\20241019161756_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\areas\\admin\\controllers\\categorypetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\areas\\admin\\controllers\\categorypetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\areas\\admin\\controllers\\petcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\areas\\admin\\controllers\\petcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\areas\\admin\\views\\categorypet\\themmoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\areas\\admin\\views\\categorypet\\themmoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\views\\home\\thucung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\views\\home\\thucung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\models\\datamodels\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\models\\datamodels\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows\\Desktop\\Shop_Pet\\Shop_Pet\\Migrations\\20241008145146_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\areas\\admin\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\areas\\admin\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|c:\\users\\windows\\videos\\shop_pet\\shop_pet\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D8DA82-0D55-4D6E-894C-6FD38C775BF0}|Shop_Pet\\Shop_Pet.csproj|solutionrelative:shop_pet\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T16:58:24.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartPanel.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Shared\\Componnents\\Cart\\CartPanel.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Views\\Shared\\Componnents\\Cart\\CartPanel.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Shared\\Componnents\\Cart\\CartPanel.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Views\\Shared\\Componnents\\Cart\\CartPanel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T16:41:36.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartView.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\ViewComponent\\CartView.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\ViewComponent\\CartView.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\ViewComponent\\CartView.cs",
+              "RelativeToolTip": "Shop_Pet\\ViewComponent\\CartView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T16:34:10.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrdersSucess.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Order\\OrdersSucess.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Views\\Order\\OrdersSucess.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Order\\OrdersSucess.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Views\\Order\\OrdersSucess.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T15:02:32.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Shop_Pet\\Controllers\\CartController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwCEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T15:03:05.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Shop_Pet\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T15:10:02.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAG0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T14:18:13.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShopPetDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\DataModels\\ShopPetDbContext.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Models\\DataModels\\ShopPetDbContext.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\DataModels\\ShopPetDbContext.cs",
+              "RelativeToolTip": "Shop_Pet\\Models\\DataModels\\ShopPetDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:52:12.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cipher.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\Cipher.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Models\\Cipher.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\Cipher.cs",
+              "RelativeToolTip": "Shop_Pet\\Models\\Cipher.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:55:19.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MySetting.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\DataModels\\MySetting.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Models\\DataModels\\MySetting.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\DataModels\\MySetting.cs",
+              "RelativeToolTip": "Shop_Pet\\Models\\DataModels\\MySetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T16:24:16.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartModel.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\DataModels\\CartModel.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Models\\DataModels\\CartModel.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\DataModels\\CartModel.cs",
+              "RelativeToolTip": "Shop_Pet\\Models\\DataModels\\CartModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T16:23:04.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Views\\Home\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Views\\Home\\Register.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T15:33:39.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-05T14:22:31.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Shop_Pet\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAuwGAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T15:10:39.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20241020161331_v1.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Migrations\\20241020161331_v1.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Migrations\\20241020161331_v1.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Migrations\\20241020161331_v1.cs",
+              "RelativeToolTip": "Shop_Pet\\Migrations\\20241020161331_v1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T16:13:32.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\DataModels\\Account.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Models\\DataModels\\Account.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\DataModels\\Account.cs",
+              "RelativeToolTip": "Shop_Pet\\Models\\DataModels\\Account.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAwAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:38:45.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAACIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T15:23:06.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-05T15:22:12.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20241020155906_v1.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Migrations\\20241020155906_v1.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Migrations\\20241020155906_v1.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Migrations\\20241020155906_v1.cs",
+              "RelativeToolTip": "Shop_Pet\\Migrations\\20241020155906_v1.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAFEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T15:59:06.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Shop_Pet\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T16:23:13.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\Pet\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Areas\\Admin\\Views\\Pet\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\Pet\\Index.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Areas\\Admin\\Views\\Pet\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T15:06:39.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Sua.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\CategoryPet\\Sua.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Areas\\Admin\\Views\\CategoryPet\\Sua.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\CategoryPet\\Sua.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Areas\\Admin\\Views\\CategoryPet\\Sua.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T15:18:05.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\CategoryPet\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Areas\\Admin\\Views\\CategoryPet\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\CategoryPet\\Index.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Areas\\Admin\\Views\\CategoryPet\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T14:33:31.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Themmoi.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\Pet\\Themmoi.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Areas\\Admin\\Views\\Pet\\Themmoi.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\Pet\\Themmoi.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Areas\\Admin\\Views\\Pet\\Themmoi.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T15:28:28.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T14:50:22.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\DataModels\\Orders.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Models\\DataModels\\Orders.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\DataModels\\Orders.cs",
+              "RelativeToolTip": "Shop_Pet\\Models\\DataModels\\Orders.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:52:44.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\DataModels\\Order.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Models\\DataModels\\Order.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\DataModels\\Order.cs",
+              "RelativeToolTip": "Shop_Pet\\Models\\DataModels\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T15:36:48.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Shop_Pet\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAewBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T14:48:29.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Pet.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\DataModels\\Pet.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Models\\DataModels\\Pet.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\DataModels\\Pet.cs",
+              "RelativeToolTip": "Shop_Pet\\Models\\DataModels\\Pet.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T14:28:21.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20241019162506_v1.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Migrations\\20241019162506_v1.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Migrations\\20241019162506_v1.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Migrations\\20241019162506_v1.cs",
+              "RelativeToolTip": "Shop_Pet\\Migrations\\20241019162506_v1.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:25:06.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20241019162043_v1.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Migrations\\20241019162043_v1.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Migrations\\20241019162043_v1.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Migrations\\20241019162043_v1.cs",
+              "RelativeToolTip": "Shop_Pet\\Migrations\\20241019162043_v1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:20:43.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20241019161756_v1.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Migrations\\20241019161756_v1.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Migrations\\20241019161756_v1.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Migrations\\20241019161756_v1.cs",
+              "RelativeToolTip": "Shop_Pet\\Migrations\\20241019161756_v1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:17:56.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CategoryPetController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Controllers\\CategoryPetController.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Areas\\Admin\\Controllers\\CategoryPetController.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Controllers\\CategoryPetController.cs",
+              "RelativeToolTip": "Shop_Pet\\Areas\\Admin\\Controllers\\CategoryPetController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAADwv0oAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T14:26:14.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PetController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Controllers\\PetController.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Areas\\Admin\\Controllers\\PetController.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Controllers\\PetController.cs",
+              "RelativeToolTip": "Shop_Pet\\Areas\\Admin\\Controllers\\PetController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwBYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T15:02:05.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Themmoi.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\CategoryPet\\Themmoi.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Areas\\Admin\\Views\\CategoryPet\\Themmoi.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\CategoryPet\\Themmoi.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Areas\\Admin\\Views\\CategoryPet\\Themmoi.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T15:04:57.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ThuCung.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Home\\ThuCung.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Views\\Home\\ThuCung.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Home\\ThuCung.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Views\\Home\\ThuCung.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T17:13:31.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\appsettings.json",
+              "RelativeDocumentMoniker": "Shop_Pet\\appsettings.json",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\appsettings.json",
+              "RelativeToolTip": "Shop_Pet\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-07T14:14:31.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Order\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Views\\Order\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\Order\\Checkout.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Views\\Order\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T15:08:05.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC8AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-05T14:22:31.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Program.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Program.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Program.cs",
+              "RelativeToolTip": "Shop_Pet\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:22:31.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Shop_Pet\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:22:31.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\DataModels\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "Shop_Pet\\Models\\DataModels\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Models\\DataModels\\SessionExtensions.cs",
+              "RelativeToolTip": "Shop_Pet\\Models\\DataModels\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T15:57:50.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-05T14:22:31.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20241008145146_v1.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\Shop_Pet\\Shop_Pet\\Migrations\\20241008145146_v1.cs",
+              "RelativeDocumentMoniker": "..\\..\\Desktop\\Shop_Pet\\Shop_Pet\\Migrations\\20241008145146_v1.cs",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\Shop_Pet\\Shop_Pet\\Migrations\\20241008145146_v1.cs",
+              "RelativeToolTip": "..\\..\\Desktop\\Shop_Pet\\Shop_Pet\\Migrations\\20241008145146_v1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T14:51:46.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Areas\\Admin\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Areas\\Admin\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Areas\\Admin\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T14:46:06.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Shop_Pet\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Videos\\Shop_Pet\\Shop_Pet\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Shop_Pet\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-05T14:22:31.252Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
